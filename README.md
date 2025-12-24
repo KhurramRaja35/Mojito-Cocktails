@@ -71,4 +71,7 @@ Visit http://localhost:5173 (Vite default port)
 ## License
 MIT License – feel free to use and modify the project.
 
-Demo
+## Demo
+```
+mojito-cocktails-gilt.vercel.app
+```
