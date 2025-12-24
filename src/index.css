@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Modern Negra';
-    src: url('/public/fonts/Modern Negra Demo.ttf') format('truetype');
+    src: url('public/fonts/Modern Negra Demo.ttf') format('truetype');
 }
 
 @theme{
@@ -149,7 +149,7 @@ video {
     }
 
     .list {
-        @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-0 px-5;
+        @apply container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-25 2xl:px-0 px-5;
 
         .popular {
             @apply space-y-8 w-full md:w-fit;
