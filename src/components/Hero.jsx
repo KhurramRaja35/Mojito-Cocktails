@@ -7,7 +7,7 @@ import {useMediaQuery} from "react-responsive";
 
 const Hero = () => {
     const videoRef = useRef();
-    const isMobile = useMediaQuery({maxWidth:767}) //from react responsive package
+    const isMobile = useMediaQuery({maxWidth:767}) //from React responsive package
 
     useGSAP(()=>{
         //breaking title into chars
