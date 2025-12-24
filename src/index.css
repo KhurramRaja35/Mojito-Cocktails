@@ -119,14 +119,14 @@ body {
             }
 
             .view-cocktails {
-                @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
+                @apply space-y-5 text-center md:text-start text-lg lg:max-w-2xs md:max-w-xs w-full;
 
                 p {
-                    @apply text-left;
+                    @apply text-center md:text-left;
                 }
 
                 a {
-                    @apply font-semibold opacity-80 2xl:text-start text-center hover:text-yellow;
+                    @apply font-semibold opacity-80 text-center 2xl:text-start  hover:text-yellow;
                 }
             }
         }

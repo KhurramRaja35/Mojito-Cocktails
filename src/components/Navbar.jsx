@@ -9,7 +9,7 @@ const Navbar = () => {
         const navTween = gsap.timeline({
             scrollTrigger:{
                 trigger:'nav',
-                start:'bottom top', // the first is representing the elemnt position and the second represent the viewport position.
+                start:'bottom top', // the first is representing the element we are animating position and the second represent the viewport position/screen.
             }
         });
 
