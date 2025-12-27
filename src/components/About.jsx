@@ -34,7 +34,7 @@ const About = () => {
           duration:1,
           ease:"power1.inOut",
           stagger:0.04,
-        },"-=0.5") // what will this do it will make the animation start before the previous one end (about 0.5 sec early)
+        }) // },"-=0.5") what will this do it will make the animation start before the previous one end (about 0.5 sec early)
   })
 
   return (
